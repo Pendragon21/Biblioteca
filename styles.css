@@ -6,6 +6,16 @@
   width: 100%;
 }
 
+.titulo{
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
 
 
 input[type="text"] {
@@ -31,8 +41,9 @@ input[type="text"]:focus {
 
 .teste{
   background-color: white;
+  position: relative;
   height: 60%;
-  width: 60%;
+  width: 80%;
   margin-left: 40rem;
   margin-block-start: auto;
 }
